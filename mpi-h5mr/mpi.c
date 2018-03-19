@@ -1,7 +1,7 @@
-#include <mpi.h>
+//#include <mpi.h>
 
 #include "../h5mr/structures.h"
-#include "hdf5_reader.h"
+#include "hdf5-reader.h"
 
 
 int MPI_Init(int * argc, char *** argv)

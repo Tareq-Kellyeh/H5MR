@@ -2,8 +2,8 @@
 
 #include "h5mr.h"
 #include "structures.h"
-#include "hdf5_builder.h"
-#include "../mpi-h5mr/hdf5_reader.h"
+#include "hdf5-builder.h"
+#include "../mpi-h5mr/hdf5-reader.h"
 
 void h5mr_record_data(const char * unique_key, MPI_Datatype datatype, int count, void * buf)
 {
